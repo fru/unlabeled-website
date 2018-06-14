@@ -1,3 +1,7 @@
+---
+layout: post
+title: Projekt Verzeichnis
+---
 <h1>
   Projekt Verzeichnis
   <a href="goto_demo_readme">
