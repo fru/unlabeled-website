@@ -18,14 +18,32 @@ redirect_from: "/projects"
       <col class="content" />
     </colgroup>
     <tr>
-      <th>H1</th>
-      <th>H2</th>
+      <td>
+        Image
+      </td>
+      <td>
+        <table>
+          <colgroup>
+            <col style="width: 30%;" />
+            <col style="width: 70%;" />
+          </colgroup>
+          <tr>
+            <th>Name</th>
+            <td>Florian Rüberg</td>
+          </tr>
+          <tr>
+            <th>Geburtsjahr</th>
+            <td>1989</td>
+          </tr>
+        </table>
+      </td>
     </tr>
 
     <tr>
       <td>A1</td>
       <td>A2</td>
     </tr>
+  </table>
 
   <style type="text/css">
     body {
@@ -46,7 +64,8 @@ redirect_from: "/projects"
     }
     
     table {
-      table-layout: fixed; 
+      table-layout: fixed;
+      width: 100%;
     }
     
     col.title {
@@ -55,6 +74,11 @@ redirect_from: "/projects"
     
     col.content {
       width: 70%; 
+    }
+    
+    .summary table, .summary td, .summary th {
+      border: 1px solid #eaecef;
+      border-collapse: collapse;
     }
   </style>
 </body>
