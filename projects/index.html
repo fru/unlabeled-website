@@ -12,7 +12,7 @@ redirect_from: "/"
     </a>
   </h1>
   
-  <table>
+  <table class="main-table">
     <colgroup>
       <col class="title" />
       <col class="content" />
@@ -278,8 +278,16 @@ Java, Swing
       line-height: 1.25;
     }
     
-    .project td {
-      padding: 12px;
+    .main-table > tr > td {
+      padding-bottom: 24px;
+    }
+    
+    .project .data {
+      font-weight: bold; 
+    }
+    
+    .project .roles {
+      text-decoration: underline; 
     }
     
     .profile {
