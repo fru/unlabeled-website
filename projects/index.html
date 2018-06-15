@@ -12,53 +12,48 @@ redirect_from: "/"
     </a>
   </h1>
   
-  <table class="main-table">
+  <img class="profile" src="https://cdn.rawgit.com/fru/unlabeled-website/31907500/assets/profile.jpg" />
+  
+  <table class="summary">
+    <colgroup>
+      <col style="width: 23%;" />
+      <col style="width: 77%;" />
+    </colgroup>
+    <tr>
+      <th>Name</th>
+      <td>Florian Rüberg</td>
+    </tr>
+    <tr>
+      <th>Geburtsjahr</th>
+      <td>1989</td>
+    </tr>
+    <tr>
+      <th>Ausbildung</th>
+      <td>Studium der Informatik mit Nebenfach BL</td>
+    </tr>
+    <tr>
+      <th>Sprachen</th>
+      <td>Deutsch (Muttersprache), English (Verhandlungssicher)</td>
+    </tr>
+    <tr>
+      <th>Tätigkeit</th>
+      <td>Softwarearchitekt, Entwickler, Technischer Teamleiter, IT-Dozent</td>
+    </tr>
+    <tr>
+      <th>Stundensatz</th>
+      <td>86€ (All-Inclusive, VB)</td>
+    </tr>
+    <tr>
+      <th>Schwerpunkte</th>
+      <td>Umsetzung von Single-Page Applications mit C# sowie Angular oder React im Frontend.</td>
+    </tr>
+  </table>
+  
+  <table>
     <colgroup>
       <col class="title" />
       <col class="content" />
     </colgroup>
-    <tr>
-      <td>
-        <img class="profile" src="https://cdn.rawgit.com/fru/unlabeled-website/31907500/assets/profile.jpg" />
-      </td>
-      <td>
-        <table class="summary">
-          <colgroup>
-            <col style="width: 23%;" />
-            <col style="width: 77%;" />
-          </colgroup>
-          <tr>
-            <th>Name</th>
-            <td>Florian Rüberg</td>
-          </tr>
-          <tr>
-            <th>Geburtsjahr</th>
-            <td>1989</td>
-          </tr>
-          <tr>
-            <th>Ausbildung</th>
-            <td>Studium der Informatik mit Nebenfach BL</td>
-          </tr>
-          <tr>
-            <th>Sprachen</th>
-            <td>Deutsch (Muttersprache), English (Verhandlungssicher)</td>
-          </tr>
-          <tr>
-            <th>Tätigkeit</th>
-            <td>Softwarearchitekt, Entwickler, Technischer Teamleiter, IT-Dozent</td>
-          </tr>
-          <tr>
-            <th>Stundensatz</th>
-            <td>86€ (All-Inclusive, VB)</td>
-          </tr>
-          <tr>
-            <th>Schwerpunkte</th>
-            <td>Umsetzung von Single-Page Applications mit C# sowie Angular oder React im Frontend.</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-
 
 <tr class="project">
   <td class="date-range">10 / 2016 – Heute</td>
@@ -260,7 +255,8 @@ Java, Swing
   <style type="text/css">
     body {
       margin: 0 auto;
-      width: 890px;
+      max-width: 890px;
+      min-width: 650px;
       font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
       font-size: 16px;
       line-height: 1.5;
@@ -278,12 +274,8 @@ Java, Swing
       line-height: 1.25;
     }
     
-    .main-table {
-      margin-bottom: 24px;
-    }
-    
     .project td {
-      padding-top: 24px; 
+      padding-bottom: 24px; 
     }
     
     .project .date-range {
@@ -296,6 +288,9 @@ Java, Swing
     
     .profile {
       width: 198px;
+      float: left;
+      margin-right: 24px;
+      margin-bottom: 24px;
     }
     
     table {
@@ -313,6 +308,11 @@ Java, Swing
     
     col.content {
       width: 75%; 
+    }
+    
+    .summary {
+      min-width: 400px;
+      margin-bottom: 24px;
     }
     
     table.summary, .summary td, .summary th {
