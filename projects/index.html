@@ -273,8 +273,10 @@ Java, Swing
       line-height: 1.25;
     }
     
-    .header {
-      clear: both;  
+    .header::after {
+      content: "";
+      clear: both;
+      display: table;
     }
     
     .project td {
