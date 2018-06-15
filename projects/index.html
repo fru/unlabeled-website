@@ -12,38 +12,40 @@ redirect_from: "/"
     </a>
   </h1>
   
-  <img class="profile" src="https://cdn.rawgit.com/fru/unlabeled-website/31907500/assets/profile.jpg" />
+  <div class="header">
+    <img class="profile" src="https://cdn.rawgit.com/fru/unlabeled-website/31907500/assets/profile.jpg" />
   
-  <table class="summary">
-    <colgroup>
-      <col style="width: 23%;" />
-      <col style="width: 77%;" />
-    </colgroup>
-    <tr>
-      <th>Name</th>
-      <td>Florian Rüberg</td>
-    </tr>
-    <tr>
-      <th>Geburtsjahr</th>
-      <td>1989</td>
-    </tr>
-    <tr>
-      <th>Ausbildung</th>
-      <td>Studium der Informatik mit Nebenfach BL</td>
-    </tr>
-    <tr>
-      <th>Sprachen</th>
-      <td>Deutsch (Muttersprache), English (Verhandlungssicher)</td>
-    </tr>
-    <tr>
-      <th>Tätigkeit</th>
-      <td>Softwarearchitekt, Entwickler, Technischer Teamleiter, IT-Dozent</td>
-    </tr>
-    <tr>
-      <th>Schwerpunkte</th>
-      <td>Umsetzung von Single-Page Applications mit C# sowie Angular oder React im Frontend.</td>
-    </tr>
-  </table>
+    <table class="summary">
+      <colgroup>
+        <col style="width: 23%;" />
+        <col style="width: 77%;" />
+      </colgroup>
+      <tr>
+        <th>Name</th>
+        <td>Florian Rüberg</td>
+      </tr>
+      <tr>
+        <th>Geburtsjahr</th>
+        <td>1989</td>
+      </tr>
+      <tr>
+        <th>Ausbildung</th>
+        <td>Studium der Informatik mit Nebenfach BL</td>
+      </tr>
+      <tr>
+        <th>Sprachen</th>
+        <td>Deutsch (Muttersprache), English (Verhandlungssicher)</td>
+      </tr>
+      <tr>
+        <th>Tätigkeit</th>
+        <td>Softwarearchitekt, Entwickler, Technischer Teamleiter, IT-Dozent</td>
+      </tr>
+      <tr>
+        <th>Schwerpunkte</th>
+        <td>Umsetzung von Single-Page Applications mit C# sowie Angular oder React im Frontend.</td>
+      </tr>
+    </table>
+  </div>
   
   <table>
     <colgroup>
@@ -269,6 +271,10 @@ Java, Swing
       margin-bottom: 19px;
       font-weight: 600;
       line-height: 1.25;
+    }
+    
+    .header {
+      clear: both;  
     }
     
     .project td {
